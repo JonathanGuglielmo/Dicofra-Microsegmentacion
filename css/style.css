@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: absolute;
+}
+
+.row {
+  --bs-gutter-x: 0!important;
+}
+
+@media (max-width: 600px) {
+  .bg-img {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+header {
+  width: 90%;
+  margin: 10em auto;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+}
+header div .logo {
+  width: 200px;
+}
+@media (max-width: 992px) {
+  header div .logo {
+    justify-content: center;
+    margin: auto;
+  }
+}
+header h1 {
+  margin-top: 2em;
+  color: #E3482F;
+  text-align: center;
+  font-size: 4em;
+  font-family: BasicGrotesque-Bold;
+}
+header h1 span {
+  color: black;
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+}
+header p {
+  margin: 1.5em auto 4em auto;
+  text-align: center;
+  font-size: 2.3em;
+  font-family: BasicGrotes-Regular;
+}
+header p span {
+  color: #E3482F;
+}
+@media (max-width: 600px) {
+  header p {
+    font-size: 1.76em;
+  }
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.section-1 {
+  width: 90%;
+  margin: 2em auto;
+  border: solid #E3482F 5px;
+}
+.section-1 .section-1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 8em;
+}
+@media (max-width: 990px) {
+  .section-1 .section-1-1 {
+    flex-wrap: wrap;
+  }
+  .section-1 .section-1-1 .triangulo {
+    transform: rotate(90deg);
+    transition: all 0.5s;
+  }
+}
+.section-1 .section-1-1 .servicio {
+  margin-left: 5px;
+}
+.section-1 .section-1-1 div {
+  margin: 0 15px;
+}
+.section-1 .section-1-1 div img {
+  width: 100%;
+  text-align: end;
+}
+@media (max-width: 990px) {
+  .section-1 .section-1-1 div img {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+}
+.section-1 .section-1-1 div h2 {
+  background-color: #E3482F;
+  padding: 0.8em 0.8em;
+  color: white;
+  font-size: 1.7em;
+  margin: -16px auto 0.5em 0;
+  font-family: BasicGrotesque-Bold;
+  transition: all 0.5s;
+}
+.section-1 .section-1-1 div h2:hover {
+  transform: scale(1.05);
+}
+.section-1 .section-1-1 div p {
+  color: black;
+  font-size: 1.59em;
+  font-family: BasicGrotes-Regular;
+  margin-top: -15px;
+}
+@media (max-width: 1400px) {
+  .section-1 .section-1-1 div h2 {
+    padding: 0.7em 0.7em;
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 600px) {
+  .section-1 .section-1-1 div h2 {
+    margin: 1em 0.5em 1em 1em;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+  }
+  .section-1 .section-1-1 p {
+    font-size: 1em !important;
+    justify-content: center;
+    display: flex;
+  }
+  .section-1 .section-1-1 .barra-1 {
+    height: 5em;
+  }
+  .section-1 .section-1-1 .triangulo {
+    display: none;
+  }
+}
+.section-1 .section-1-2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.section-1 .section-1-2 p {
+  font-size: 2em;
+  font-family: BasicGrotesque-Bold;
+  width: 90%;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 1400px) {
+  .section-1 .section-1-2 p {
+    font-size: 1.6em;
+  }
+}
+.section-1 .section-1-3 {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section-1 .section-1-3 img {
+  margin: 1em 2em;
+}
+.section-1 .section-1-3 div {
+  margin: 1em;
+}
+@media (max-width: 600px) {
+  .section-1 .section-1-3 div .guardicore-logo, .section-1 .section-1-3 div .dicofra-logo {
+    width: 70%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 1150px) {
+  .section-1 .section-1-3 {
+    display: block;
+    text-align: center;
+  }
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.section-2 {
+  margin-bottom: 5em;
+}
+.section-2 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 3.24em !important;
+  font-family: BasicGrotesque-Bold;
+  width: 50%;
+  height: 2em;
+  margin: 2em auto 0 auto;
+  padding-bottom: 15px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  font-size: 2em;
+}
+.section-2 h2 span {
+  color: #E3482F;
+  font-size: 0.8em;
+  font-family: BasicGrotes-Regular;
+  margin-left: 1em;
+  margin-top: 5px;
+}
+.section-2 div {
+  background-color: black;
+  margin: -10px auto 0 auto;
+  display: flex;
+  padding-top: 3em;
+  justify-content: center;
+}
+.section-2 div ul li {
+  display: flex;
+  align-items: baseline;
+  list-style: none;
+}
+.section-2 div ul li img {
+  margin: 0 1em;
+}
+.section-2 div ul li .texto-blanco {
+  color: white;
+}
+.section-2 div ul li .texto-rojo {
+  color: #E3482F;
+}
+.section-2 div ul li p {
+  font-size: 2.38em;
+  font-family: BasicGrotes-Regular;
+}
+@media (max-width: 2500px) {
+  .section-2 h2 {
+    width: 30%;
+    font-size: 2em;
+  }
+}
+@media (max-width: 1450px) {
+  .section-2 h2 {
+    width: 50%;
+    font-size: 2em;
+  }
+  .section-2 div {
+    margin: 0 auto 0 auto;
+  }
+  .section-2 div ul {
+    margin-top: 1em;
+  }
+  .section-2 div ul li p {
+    font-size: 2em;
+    align-items: end;
+  }
+}
+@media (max-width: 767px) {
+  .section-2 h2 {
+    width: 90%;
+    font-size: 1.5em;
+  }
+  .section-2 div {
+    background-color: black;
+    display: block;
+  }
+  .section-2 div ul {
+    margin: auto;
+  }
+  .section-2 div ul li p {
+    font-size: 1em;
+  }
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.section-3 {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5em;
+  border-bottom: solid #E3482F 5px;
+}
+.section-3 .titulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin: 10em 0 0 10%;
+}
+@media (max-width: 750px) {
+  .section-3 .titulo {
+    margin: 10em 0 0 0;
+  }
+}
+.section-3 .titulo h3 {
+  color: #ff4221;
+  font-size: 2.5em;
+  font-family: BasicGrotesque-Bold;
+  margin-right: 10px;
+}
+@media (max-width: 1250px) {
+  .section-3 .titulo h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 750px) {
+  .section-3 .titulo h3 {
+    text-align: center;
+  }
+}
+.section-3 .titulo p {
+  font-size: 1.91em;
+  font-family: BasicGrotes-Regular;
+}
+@media (max-width: 750px) {
+  .section-3 .titulo p {
+    text-align: center;
+  }
+}
+.section-3 .servicios .tarjeta {
+  margin: 2em auto;
+}
+.section-3 .servicios .tarjeta div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0 2em;
+}
+.section-3 .servicios .tarjeta div img {
+  width: 80%;
+  transition: all 0.5s;
+}
+.section-3 .servicios .tarjeta div img:hover {
+  transform: scale(1.1);
+}
+.section-3 .servicios .tarjeta div div {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+.section-3 .servicios .tarjeta div div p {
+  font-size: 1.2em;
+  font-family: BasicGrotesque-Bold;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .section-3 {
+    width: 75%;
+  }
+  .section-3 h3 {
+    display: flex;
+    justify-content: center;
+  }
+}
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.form {
+  margin-top: 3em;
+}
+.form h4 {
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  color: black;
+  font-size: 3.2em;
+  font-family: BasicGrotesque-Bold;
+  text-align: center;
+}
+.form h5 {
+  margin-bottom: 4em;
+  text-align: center;
+  color: #ff4221;
+  font-size: 2em;
+  font-family: BasicGrotes-Regular;
+}
+.form form div {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  color: #333333;
+  font-size: 2.65em;
+  font-family: BasicGrotesque-Bold;
+  text-align: right;
+}
+.form form div label {
+  padding-right: 1em;
+}
+.form form div input {
+  border-radius: 0.3em;
+  height: 1.4em;
+  font-size: 38px;
+  padding: 31px 10px;
+}
+.form .boton {
+  justify-content: end;
+  margin: 0 0 25px 0;
+  font-size: 1.5em;
+}
+.form .boton button {
+  background-color: #ff4221;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0 1em;
+  justify-content: end;
+}
+
+@media (max-width: 992px) {
+  .form h4 {
+    font-size: 2.24em;
+  }
+  .form h5 {
+    font-size: 1.8em;
+  }
+  .form p {
+    font-size: 1.5em;
+  }
+  .form form div label {
+    text-align: center;
+    padding-right: 0;
+  }
+  .form form div input {
+    margin: auto;
+  }
+  .form form .boton {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .form form .boton .boton-fantasma {
+    display: none;
+  }
+}
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+footer .contacto {
+  background-color: black;
+  padding: 4em;
+}
+@media (max-width: 990px) {
+  footer .contacto {
+    padding: 1em;
+  }
+}
+footer .contacto div {
+  border-bottom: solid white 4px;
+  background-color: black;
+}
+footer .contacto div p {
+  color: #eb4327;
+  font-size: 1.79em;
+  font-family: BasicGrotesque-Bold;
+}
+footer .sucursales {
+  align-items: flex-start;
+  display: flex;
+  background-color: black;
+  align-items: baseline;
+}
+footer .sucursales img {
+  justify-content: left;
+  margin: 0 1em 0;
+}
+footer .sucursales div {
+  padding: 2em 1em 1em 1em;
+  flex-wrap: wrap;
+}
+footer .sucursales div img {
+  justify-content: left;
+  margin: 0 1em 0;
+}
+footer .sucursales div h6 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #E3482F;
+  font-size: 1.17em;
+  font-family: BasicGrotesque-Bold;
+}
+footer .sucursales div p {
+  color: white;
+  font-size: 0.96em;
+  font-family: BasicGrotesque-Bold;
+}
+@media (max-width: 990px) {
+  footer .sucursales div {
+    flex-wrap: nowrap;
+    margin: 0;
+    max-width: 500px;
+  }
+  footer .sucursales div .cdm {
+    width: 100px;
+    height: 110px;
+  }
+  footer .sucursales div .mont {
+    width: 100px;
+    height: 82px;
+  }
+  footer .sucursales div .sanf {
+    width: 100px;
+    height: 73px;
+  }
+  footer .sucursales div div {
+    padding: 0 2em;
+  }
+  footer .sucursales div div h6 {
+    width: 100%;
+    margin: 0;
+  }
+  footer .sucursales div div p {
+    width: 100%;
+    margin: 0;
+  }
+}
+footer .siguenos {
+  background-color: #eb4327;
+  display: flex;
+}
+@media (max-width: 992px) {
+  footer .siguenos {
+    order: -1;
+  }
+}
+@media (max-width: 767px) {
+  footer .siguenos {
+    order: 1;
+  }
+}
+footer .siguenos div {
+  margin: auto;
+}
+footer .siguenos div p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-size: 3em;
+  font-family: BasicGrotesque-Bold;
+  text-align: center;
+}
+@media (max-width: 990px) {
+  footer .siguenos div p {
+    margin-top: 1em;
+    font-size: 2em;
+  }
+}
+footer .siguenos div div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .siguenos div div img {
+  margin: 2.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

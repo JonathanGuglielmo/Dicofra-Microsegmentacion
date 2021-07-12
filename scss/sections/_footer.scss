@@ -1,0 +1,125 @@
+@import '../utilities/fonts.scss';
+
+footer{
+    .contacto{
+        background-color: black;
+        padding: 4em;
+        @media (max-width:990px) {
+            padding: 1em;
+        }
+        div{
+            border-bottom: solid white 4px;
+            background-color: black;
+        p{
+            color: #eb4327;
+            font-size: 1.79em;
+            font-family: BasicGrotesque-Bold;
+        }
+        }
+        
+    }
+    .sucursales{
+        align-items: flex-start;
+        display: flex;
+        background-color: black;
+        align-items: baseline;
+        img {
+            justify-content: left;
+            margin: 0 1em 0;
+        }
+        @media (max-width:990px){
+            
+        }
+        div{
+            padding:2em 1em 1em 1em;
+            flex-wrap: wrap;
+            img{
+                justify-content: left;
+                margin: 0 1em 0;
+            }
+            h6{
+                margin-top: 1em;
+                margin-bottom: 1em;
+                color: #E3482F;
+                font-size: 1.17em;
+                font-family: BasicGrotesque-Bold;
+            }
+            p{
+                color: white;
+                font-size: 0.96em;
+                font-family: BasicGrotesque-Bold;
+            }
+            @media (max-width:990px) {
+                flex-wrap: nowrap;
+                    margin: 0;
+                    max-width: 500px;
+                    .cdm{
+                        width: 100px;
+                        height: 110px;
+                    }
+                    .mont{
+                        width: 100px;
+                        height: 82px;
+                    }
+                    .sanf{
+                        width: 100px;
+                        height: 73px;
+                    }
+
+                    div{
+                        padding: 0 2em;
+                        h6{
+                            width: 100%;
+                            margin: 0;
+                        }
+                        p{
+                            width: 100%;
+                            margin: 0;
+                        }
+                    }
+                    
+                
+                
+            }
+        }
+        
+
+    }
+    .siguenos{
+        background-color: #eb4327;
+        display: flex;
+        @media (max-width:992px) {
+            order: -1;
+        }
+        @media (max-width:767px) {
+            order: 1;
+        }
+        div{
+            margin: auto;
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                color: white;
+                font-size: 3em;
+                font-family: BasicGrotesque-Bold;
+                text-align: center;
+                @media (max-width:990px) {
+                    margin-top: 1em;
+                    font-size: 2em;
+                }
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    margin: 2.5em;
+                }
+            }
+
+        }
+        
+    }
+}

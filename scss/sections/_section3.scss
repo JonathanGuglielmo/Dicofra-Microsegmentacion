@@ -1,0 +1,90 @@
+@import '../utilities/fonts';
+
+.section-3{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5em;
+    border-bottom: solid #E3482F 5px;
+    
+
+    .titulo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        margin:10em 0 0 10%;
+        @media (max-width:750px) {
+            margin: 10em 0 0 0;
+        }
+        h3{
+            color: #ff4221;
+            font-size: 2.5em;
+            font-family: BasicGrotesque-Bold;   
+            margin-right:10px;
+            @media(max-width:1250px){
+                margin-left:0;
+                margin-right:0;
+            } 
+            @media (max-width:750px) {
+                text-align: center;
+            }
+        }
+        p{
+            font-size: 1.91em;
+            font-family: BasicGrotes-Regular;
+            @media (max-width:750px) {
+                text-align: center;
+            }
+        }
+    }
+
+    .servicios{
+        .tarjeta{
+            margin: 2em auto;
+            
+            div{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 auto;
+                justify-content: center;
+                align-items: baseline;
+                padding: 0 2em;
+                
+                img{
+                    width: 80%;
+                    transition: all 0.5s;
+                    &:hover{
+                        transform: scale(1.1);
+                         ;
+                    }
+                }
+                
+                div{
+                    padding: 10px 0 0 0;
+                    margin: 0;
+                    p{
+                        font-size: 1.2em;
+                        font-family: BasicGrotesque-Bold;
+                        text-align: center;
+
+                    }
+                }
+                
+            }
+        } 
+    }
+}
+
+@media (max-width:992px){
+    .section-3{
+        width: 75%;
+        h3 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+
+
+

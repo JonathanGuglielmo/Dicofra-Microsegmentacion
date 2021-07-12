@@ -1,0 +1,92 @@
+@import '../utilities/fonts';
+
+.form{
+    margin-top: 3em;
+    
+    h4{
+        margin-top: 2em;
+        margin-bottom: 0.8em;
+        color: black;
+        font-size: 3.2em;
+        font-family: BasicGrotesque-Bold;
+        text-align: center;
+    }
+    h5{
+        margin-bottom: 4em;
+        text-align: center;
+        color: #ff4221;
+        font-size: 2em;
+        font-family: BasicGrotes-Regular;
+    }
+    form{
+        div{
+            margin-top: 0.8em;
+            margin-bottom: 0.8em;
+            color: #333333;
+            font-size: 2.65em;
+            font-family: BasicGrotesque-Bold;
+            text-align: right;
+            label{
+                padding-right: 1em;
+            }
+            
+            input{
+                border-radius: 0.3em;
+                height: 1.4em;
+                font-size: 38px;
+                padding: 31px 10px;
+                }
+            }
+        }  
+        .boton{
+            justify-content: end;
+            margin: 0 0 25px 0;
+            font-size: 1.5em;
+            button{
+                background-color: #ff4221;
+                color: white;
+                border: none;
+                border-radius: 15px;
+                text-align: center;
+                padding: 0 1em;
+                justify-content: end;
+            }
+        } 
+        
+    }
+    
+
+
+@media (max-width:992px){
+    .form{
+        h4{
+            font-size: 2.24em;
+        }
+        h5{
+            font-size: 1.8em;
+        }
+        p{
+            font-size: 1.5em;
+        }
+        form{
+            div{
+                label{
+                    text-align: center;
+                    padding-right: 0;
+                }
+                input{
+                    margin: auto;
+                }
+            }
+            
+            .boton{
+                display: flex;
+                .boton-fantasma{
+                    display: none;
+                }
+                justify-content: center;
+                margin: 0 auto;
+            }
+        }
+    }
+}
