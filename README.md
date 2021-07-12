@@ -5,7 +5,7 @@
 <h3 align="center">Microsegmentación en Servidores.</h3>
 
 <h2 align="center">Descripción del proyecto</h2>
-<p align="center">Servicio administrado de microsegmentación en servidores para corporativos. Mejora la visibilidad de los flujos de comunicación mediante segmentación en redes.</p>
+<p align="center">Landgin page - Servicio administrado de microsegmentación en servidores para corporativos. Mejora la visibilidad de los flujos de comunicación mediante segmentación en redes.</p>
 
 <h2 align="center">Usar git pull antes de hacer cambios!</h2>
 
